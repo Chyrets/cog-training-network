@@ -1,3 +1,4 @@
 [submodule "sd_scripts"]
 	path = sd_scripts
 	url = https://github.com/kohya-ss/sd-scripts
+; 	hash = f9317052edb4ab3b3c531ac3b28825ee78b4a966
