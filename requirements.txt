@@ -30,4 +30,4 @@ huggingface-hub==0.20.1
 # open clip for SDXL
 open-clip-torch==2.20.0
 
-git+https://github.com/kohya-ss/sd-scripts.git
+git+https://github.com/kohya-ss/sd-scripts.git#egg=sd_scripts
