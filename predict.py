@@ -1,10 +1,12 @@
+import os
 import re
+import sys
 import tempfile
 import zipfile
 import time
 import subprocess
 from cog import BasePredictor, Input, Path
-from train_network import setup_parser, NetworkTrainer
+
 
 BASE_MODEL_CACHE = "./base-model-cache"
 BASE_MODEL_ID = "runwayml/stable-diffusion-v1-5"
