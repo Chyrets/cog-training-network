@@ -1,12 +1,9 @@
-import os
 import re
 import tempfile
 import zipfile
 import time
 import subprocess
 from cog import BasePredictor, Input, Path
-
-os.chdir('sd_scripts')
 
 from sd_scripts.train_network import setup_parser, NetworkTrainer
 
