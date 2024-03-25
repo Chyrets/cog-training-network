@@ -1,3 +1,6 @@
+import sys
+sys.path.append("sd_scripts")
+
 import re
 import tempfile
 import zipfile
